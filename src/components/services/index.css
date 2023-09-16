@@ -1,0 +1,63 @@
+.service-header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.service-header span {
+  color: rgb(90, 106, 131);
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+}
+.service-header h2 {
+  font-size: 27px;
+  color: #001943;
+  letter-spacing: 0.1em;
+}
+
+.service-header p {
+  color: #5a6a83;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.serv-cards {
+  padding: 40px;
+  display: flex;
+  gap: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.serv-cards img {
+  width: 13%;
+}
+
+.card-area {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 28px 30px 20px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+
+  background: rgba(0, 107, 103, 0.74);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.4px);
+  -webkit-backdrop-filter: blur(11.4px);
+  border: 1px solid rgba(0, 107, 103, 0.38);
+}
+.card-area:hover {
+  transform: scale(1.1);
+}
+.card-prg {
+  color: white;
+  font-weight: 500;
+}
+.title {
+  color: white;
+}
