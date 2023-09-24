@@ -1,22 +1,31 @@
+import WebDevelopment from "../../static/img/custom.webp";
+import Ecom from "../../static/img/Ecom.webp";
+import UiUx from "../../static/img/ui.webp";
+
 export const CardsData = [
   {
-    icon: "../../static/img/custom.webp",
-    name: "Custom Software Development",
-    text: "From web applications to mobile applications Whizzbridge offers a wide array of custom software development solutions to its customers.",
+    icon: WebDevelopment,
+    name: "Web App Development",
+    to: "custom",
+    text: "We use rapid development mehtodologies incorporating MVC Framworks and interactive Javascript-based front ends to build robust web apps that enrich users.",
   },
   {
-    icon: "../../static/img/Ecom.webp",
+    icon: Ecom,
     name: "E-Commerce Services",
+    to: "ecom",
+
     text: "From platform customization to migrations, we offer a wide variety of e-commerce solutions. Unlock the full potential of your online store with our ecommerce services.",
   },
   {
-    icon: "../../static/img/ui.webp",
+    icon: UiUx,
     name: "UI/UX Design",
-    text: "We are specialized in creating beautiful and smooth UI/UX designs that provide better user experience by incorporating effective collaboration, streamlined projects which strive for better results.",
+    to: "uiux",
+
+    text: "Our teams are adept at creating engaging, interactive, and user-centric designs using product strategy to increase conversions, decrease customer churn, and promote customer loyalty.",
   },
   {
-    icon: "../../static/img/Ecom.webp",
+    icon: Ecom,
     name: "Mobile Development",
-    text: "We specialize in crafting stunning and intuitive UI/UX designs, enhancing user experiences through seamless collaboration, and executing streamlined projects that deliver exceptional results for iOS and Android development.",
+    text: "We've been building award-winning apps for over a decade for mobile operating systems from symbian and blackberrry days right up to Android and IOS.",
   },
 ];

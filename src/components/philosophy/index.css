@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.heading {
+  color: rgb(90, 106, 131);
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+}
+
+.text {
+  color: #5a6a83;
+  font-size: 20px;
+  padding: 0 100px 0 100px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 10px;
+}
+.flex-child {
+  width: 7rem;
+  background: rgb(65 81 105);
+  height: 0.6rem;
+}

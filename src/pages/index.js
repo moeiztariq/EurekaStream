@@ -8,6 +8,9 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 import Hero from '..//components/hero/index';
 import Services from '../components/services';
+import ProjectOverview from '../components/projects-overview';
+import OurPhilosophy from '../components/philosophy';
+import ContactUs from '../components/contanceUs/ContactUs';
 
 
 function HomepageHeader() {
@@ -37,9 +40,12 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       {/* <HomepageHeader /> */}
       <Hero />
+      <OurPhilosophy />
       <Services />
+      <ProjectOverview />
+      <ContactUs />
       <main>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );
