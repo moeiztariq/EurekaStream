@@ -36,7 +36,7 @@ const Projects = () => {
 
       <div className="right-box" id="ecom">
         <img src={BackgroundImg} alt="" className="back-img" />
-        <Link to={"https://www.sharove.com/"}>
+        <Link to={"https://www.orangeshine.com/"}>
           <img src={Ecom} alt="" className="overylay-img" />
           <img src={EcomMobile} alt="" className="mob-img" />
           <img src={EcomLaptop} alt="" className="lap-img" />
