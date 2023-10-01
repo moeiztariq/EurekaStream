@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import CustomSC from "../../../static/img/custom.webp";
 import { CardsData } from "../../helpers/helpers";
 import { Link } from "react-scroll";
 const Services = () => {
@@ -10,7 +9,7 @@ const Services = () => {
         <span>Our Services</span>
         <h2>High-impact technology services</h2>
         <p>
-          5+ Years of experience in software services, delivering amazing
+          Over half a decade experience in software services, delivering amazing
           projects.
         </p>
       </div>

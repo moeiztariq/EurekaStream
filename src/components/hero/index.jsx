@@ -7,14 +7,12 @@ const Hero = () => {
     <div className="hero-container">
       <div className="hero-left">
         <div className="h1-title">
-          <h1>On target software solutions</h1>
-          <h1> that help your business grow!</h1>
+          <h1>Crafting Transformative Technologies for Lasting Impact</h1>
         </div>
         <div className="title-txt">
           <p>
-            We are a diverse team of highly skilled individuals committed to
-            providing innovative software solutions that deliver results for
-            your business.
+            We empower thriving businesses with our software solutions, 
+            propelling your journey from inception to exponential growth.
           </p>
         </div>
       </div>

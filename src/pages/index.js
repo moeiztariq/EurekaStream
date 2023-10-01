@@ -1,52 +1,27 @@
-import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+// Third party imports
+import React from "react";
+import Layout from "@theme/Layout";
 
-import styles from './index.module.css';
-import Hero from '..//components/hero/index';
-import Services from '../components/services';
-import ProjectOverview from '../components/projects-overview';
-import OurPhilosophy from '../components/philosophy';
-import ContactUs from '../components/contanceUs/ContactUs';
-
-
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+// local imports
+import Hero from "..//components/hero/index";
+import Services from "../components/services";
+import ProjectOverview from "../components/projects-overview";
+import OurMission from "../components/philosophy";
+import ContactUs from "../components/contanceUs/ContactUs";
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={"EureksStream: Pioneering Innovation in Digital Excellence"}
+      description="A Software Engineering Company"
+    >
       {/* <HomepageHeader /> */}
       <Hero />
-      <OurPhilosophy />
+      <OurMission />
       <Services />
       <ProjectOverview />
       <ContactUs />
-      <main>
-        {/* <HomepageFeatures /> */}
-      </main>
+      <main>{/* <HomepageFeatures /> */}</main>
     </Layout>
   );
 }
