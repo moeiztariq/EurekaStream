@@ -1,9 +1,9 @@
 .service-container {
-  padding-bottom: 120px;
+  padding-bottom: 30px;
 }
 .service-header {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 50px;
 }
 
@@ -16,9 +16,9 @@
   line-height: 30px;
 }
 .service-header h2 {
-  font-size: 27px;
+  font-size: 42px;
   color: #001943;
-  letter-spacing: 0.1em;
+  
 }
 
 .service-header p {

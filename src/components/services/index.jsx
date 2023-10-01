@@ -7,17 +7,12 @@ const Services = () => {
     <div className="service-container">
       <div className="service-header">
         <span>Our Services</span>
-        <h2>High-impact technology services</h2>
-        <p>
-          Over half a decade experience in software services, delivering amazing
-          projects.
-        </p>
+        <h2>Elevated Technology Solutions with a <br /> Profound Impact</h2>
       </div>
       <div className="serv-cards">
         {CardsData.map((item, index) => (
           <Link to={item.to} className="card-area" smooth={true}>
             <div key={index}>
-              {console.log(item, "OOOO")}
               <img src={item.icon} alt="" />
               <h3 className="title">{item.name}</h3>
               <p className="card-prg">{item.text}</p>

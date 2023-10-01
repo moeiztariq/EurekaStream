@@ -6,7 +6,7 @@ import Layout from "@theme/Layout";
 import Hero from "..//components/hero/index";
 import Services from "../components/services";
 import ProjectOverview from "../components/projects-overview";
-import OurMission from "../components/philosophy";
+import OurMission from "../components/mission";
 import ContactUs from "../components/contanceUs/ContactUs";
 
 export default function Home() {
