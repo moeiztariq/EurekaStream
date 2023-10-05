@@ -2,3 +2,9 @@
   background-color: #f9f9f9;
   padding: 80px 40px;
 }
+
+@media (max-width: 600px) {
+  .overview-container {
+    padding: 48px 0px;
+  }
+}

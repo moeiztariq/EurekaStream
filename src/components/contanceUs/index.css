@@ -72,3 +72,32 @@
   font-weight: 700;
   transition: all 0.2s;
 }
+@media (max-width: 600px) {
+  .h1 {
+    font-size: 20px;
+    margin-bottom: 3rem;
+  }
+  .contact-container {
+    padding: 70px 30px;
+  }
+  .input-flex {
+    display: unset;
+  }
+  .input-label {
+    font-size: 14px;
+  }
+  .inpt-cls {
+    font-size: 11px;
+    margin-bottom: 2rem;
+  }
+  .text-cls {
+    font-size: 11px;
+    margin-bottom: 3rem;
+  }
+  .form-btn {
+    font-size: 10px;
+    width: 40%;
+    height: 60px;
+    padding: 10px 0px;
+  }
+}

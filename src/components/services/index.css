@@ -9,7 +9,7 @@
 
 .service-header span {
   color: rgb(90, 106, 131);
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -18,7 +18,6 @@
 .service-header h2 {
   font-size: 42px;
   color: #001943;
-  
 }
 
 .service-header p {
@@ -32,6 +31,7 @@
   display: flex;
   gap: 1rem;
   transition: transform 0.3s ease;
+  flex-wrap: wrap;
 }
 
 .serv-cards img {
@@ -55,6 +55,11 @@
   backdrop-filter: blur(11.4px);
   -webkit-backdrop-filter: blur(11.4px);
   border: 1px solid rgba(0, 107, 103, 0.38);
+  flex: 1;
+  max-width: calc(
+    50% - 16px
+  ); /* 50% width for each card with some margin in between */
+  margin: 8px;
 }
 .card-area:hover {
   transform: translateY(-20px);
@@ -65,4 +70,38 @@
 }
 .title {
   color: white;
+}
+
+@media (max-width: 768px) {
+  .service-header span {
+    font-size: 20px;
+  }
+  .service-header h2 {
+    font-size: 30px;
+  }
+  .flex-child {
+    height: 0.3rem;
+  }
+
+  .card-area {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .serv-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0;
+  }
+  .service-header h2 {
+    font-size: 19px;
+    margin-top: 0.5rem;
+  }
+  .service-header {
+    margin-bottom: 20px;
+  }
+  .card-area {
+    width: 100%;
+  }
 }

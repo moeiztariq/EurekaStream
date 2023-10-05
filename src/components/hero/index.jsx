@@ -11,7 +11,7 @@ const Hero = () => {
         </div>
         <div className="title-txt">
           <p>
-            We empower thriving businesses with our software solutions, 
+            We empower thriving businesses with our software solutions,
             propelling your journey from inception to exponential growth.
           </p>
         </div>

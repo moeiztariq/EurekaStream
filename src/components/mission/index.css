@@ -30,3 +30,16 @@
   background: rgb(65 81 105);
   height: 0.6rem;
 }
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 18px;
+  }
+  .text {
+    font-size: 15px;
+    padding: 0 40px 0 40px;
+  }
+  .flex-child {
+    height: 0.3rem;
+  }
+}

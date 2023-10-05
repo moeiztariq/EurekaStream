@@ -1,19 +1,19 @@
 import React from "react";
 import "./index.css";
-import BackgroundImg from "../../../../static/img/green-back.jpg";
-import CustomBackGround from "../../../../static/img/custom3.png";
-import CustomMobilefrom from "../../../../static/img/customMobile.png";
-import Ecom from "../../../../static/img/ecom1.png";
-import EcomMobile from "../../../../static/img/ecomMobile.png";
-import EcomLaptop from "../../../../static/img/ecomLaptop1.png";
-import Mobile1 from "../../../../static/img/mobile1.png";
-import Mobile2 from "../../../../static/img/mobile2.png";
-import Mobile3 from "../../../../static/img/mobile3.png";
-import Mobile4 from "../../../../static/img/mobile4.png";
+import BackgroundImg from "../../../../static/img/green-back-min.jpg";
+import CustomBackGround from "../../../../static/img/custom3-min.png";
+import CustomMobilefrom from "../../../../static/img/customMobile-min.png";
+import Ecom from "../../../../static/img/ecom1-min.png";
+import EcomMobile from "../../../../static/img/ecomMobile-min.png";
+import EcomLaptop from "../../../../static/img/ecomLaptop1-min.png";
+import Mobile1 from "../../../../static/img/mobile1-min.png";
+import Mobile2 from "../../../../static/img/mobile2-min.png";
+import Mobile3 from "../../../../static/img/mobile3-min.png";
+import Mobile4 from "../../../../static/img/mobile4-min.png";
 
-import UIUX from "../../../../static/img/uiux1.png";
-import uiuxLeft from "../../../../static/img/uiux-left.png";
-import uiuxright from "../../../../static/img/uiux-right.png";
+import UIUX from "../../../../static/img/uiux1-min.png";
+import uiuxLeft from "../../../../static/img/uiux-left-min.png";
+import uiuxright from "../../../../static/img/uiux-right-min.png";
 
 import Link from "@docusaurus/Link";
 const Projects = () => {

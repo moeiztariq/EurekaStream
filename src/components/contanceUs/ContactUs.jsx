@@ -32,6 +32,7 @@ const ContactUs = () => {
           console.log(result.text);
           setError(""); // Clear any previous error
           toast.success("Email sent successfully!");
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -42,7 +43,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact-us">
       <h1 className="h1">Contact Us</h1>
       <form className="form-flex" ref={form} onSubmit={sendEmail}>
         <div className="input-flex">

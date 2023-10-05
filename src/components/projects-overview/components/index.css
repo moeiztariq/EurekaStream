@@ -139,3 +139,69 @@
 .mob-right:hover {
   transform: translateY(-5px);
 }
+@media (max-width: 600px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-container > div:nth-child(1) {
+    order: 1;
+  }
+  .project-container > div:nth-child(2) {
+    order: 2;
+  }
+  .project-container > div:nth-child(3) {
+    order: 4;
+  }
+  .project-container > div:nth-child(4) {
+    order: 3;
+  }
+  .project-container > div:nth-child(5) {
+    order: 5;
+  }
+  .project-container > div:nth-child(6) {
+    order: 6;
+  }
+  .project-container > div:nth-child(7) {
+    order: 8;
+  }
+  .project-container > div:nth-child(8) {
+    order: 7;
+  }
+  .box-title {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .large-text {
+    font-size: 15px;
+    line-height: 23px;
+    padding-top: 11px;
+  }
+  .left-box {
+    padding-left: 38px;
+  }
+  .right-box {
+    margin-bottom: 4rem;
+  }
+  .mob-img {
+    top: 8rem;
+    left: 0rem;
+  }
+  .lap-img {
+    top: 6rem;
+  }
+  .mob-flex {
+    top: 5rem;
+  }
+  .overylay-uiux {
+    top: 3rem;
+    left: 2rem;
+  }
+  .mob-right {
+    top: 8rem;
+    right: 0rem;
+  }
+  .mob-left {
+    top: 8rem;
+  }
+}
