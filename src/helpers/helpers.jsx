@@ -29,15 +29,3 @@ export const CardsData = [
     text: "We've been building award-winning apps for over a decade for mobile operating systems from symbian and blackberrry days right up to Android and IOS.",
   },
 ];
-
-document.addEventListener("DOMContentLoaded", function () {
-  // Check if the URL contains a hash (e.g., #contact-us)
-  if (window.location.hash) {
-    // Get the target element based on the hash
-    var target = document.querySelector(window.location.hash);
-    if (target) {
-      // Scroll to the target element smoothly
-      target.scrollIntoView({ behavior: "smooth" });
-    }
-  }
-});
