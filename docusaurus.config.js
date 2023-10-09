@@ -73,11 +73,11 @@ const config = {
             items: [
               {
                 label: "LinkedIn",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://www.linkedin.com/company/eurekastream",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/eurekastream",
               },
             ],
           },
@@ -90,7 +90,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/eurekastream",
               },
             ],
           },
