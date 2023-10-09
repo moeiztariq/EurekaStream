@@ -61,7 +61,7 @@ const config = {
           src: "img/eurekaLogo.png",
         },
         items: [
-          { to: "/blog", label: "Blog", position: "right" },
+          { to: "/blog", label: "Knowledge Base", position: "right" },
           { to: "/#contact-us", label: "Contact Us", position: "right" },
         ],
       },
