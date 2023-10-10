@@ -20,8 +20,8 @@ export default function Home() {
       <Hero />
       <OurMission />
       <Services />
-      <ProjectOverview />
       <Technologies />
+      <ProjectOverview />
       <ContactUs />
       <main>{/* <HomepageFeatures /> */}</main>
     </Layout>
