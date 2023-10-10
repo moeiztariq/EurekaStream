@@ -1,5 +1,6 @@
 .contact-container {
   padding: 70px 140px;
+  background-color: #f9f9f9;
 }
 .h1 {
   font-size: 45px;
@@ -41,7 +42,7 @@
 
 .input-label {
   font-weight: 600;
-  color: rgb(90, 106, 131);
+  color: #214622;
   text-transform: uppercase;
 }
 .text-cls {
