@@ -13,7 +13,7 @@ export default function BlogPostItemWrapper(props) {
       <BlogPostItem {...props} />
       {comments && (
         <DiscussionEmbed
-          shortname="your-disqus-shortname"
+          shortname="EurekaStream"
           config={{
             url: slug,
             identifier: slug,
