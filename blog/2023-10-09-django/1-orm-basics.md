@@ -3,6 +3,8 @@ slug: django-orm-basics
 title: Demystifying Django ORM
 authors: azhar
 tags: [django, orm]
+# draft: true
+comments: true # for Disqus
 ---
 
 ![Django ORM](./banners/django-orm.webp)
