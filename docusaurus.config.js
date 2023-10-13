@@ -1,6 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
+require("dotenv").config();
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
@@ -38,6 +38,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: false,
+        gtag: {
+          trackingID: process.env.MEASUREMENT_ID,
+          anonymizeIP: true,
+        },
         blog: {
           showReadingTime: true,
         },
