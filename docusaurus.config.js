@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "EurekaStream: Pioneering Innovation in Digital Excellence",
+  tagline: "Pioneering Innovation in Digital Excellence",
   favicon: "img/eurekaLogo.png",
 
   // Set the production url of your site here

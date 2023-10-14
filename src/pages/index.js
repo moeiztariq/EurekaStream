@@ -12,10 +12,7 @@ import Technologies from "../components/technologies";
 
 export default function Home() {
   return (
-    <Layout
-      title={"EureksStream: Pioneering Innovation in Digital Excellence"}
-      description="A Software Engineering Company"
-    >
+    <Layout>
       {/* <HomepageHeader /> */}
       <Hero />
       <OurMission />
