@@ -7,7 +7,9 @@ tags: [django, orm]
 
 ![Django ORM](../banners/django-orm.webp)
 
-In Django's Object-Relational Mapping (ORM), `null` and `blank` are parameters used to define how a field should handle empty values:
+In Django's Object-Relational Mapping (ORM), `null` and `blank` are parameters used to define how a field should handle empty values
+
+<!--truncate-->
 
 ## Null
 This parameter is related to database schema.If `null` is set to `True` for a field, it means the field can store database NULL values, indicating that the field is optional. If set to `False`, the field is required to have a value on database level.
