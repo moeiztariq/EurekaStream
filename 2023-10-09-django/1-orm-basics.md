@@ -5,7 +5,7 @@ authors: azhar
 tags: [django, orm]
 ---
 
-![Django ORM](./banners/django-orm.webp)
+![Django ORM](./)
 
 Django, a popular Python web framework, offers a powerful and intuitive Object-Relational Mapping (ORM) layer. With Django ORM, developers can interact with databases using Python code, eliminating the need for writing complex SQL queries. 
 
