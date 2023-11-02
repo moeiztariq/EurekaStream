@@ -2,7 +2,7 @@
 slug: django-orm-basics
 title: Demystifying Django ORM
 authors: azhar
-tags: [django, orm]
+tags: [django, orm, python]
 ---
 
 ![Django ORM](../banners/django-orm.webp)

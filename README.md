@@ -8,3 +8,6 @@ npm run build
 # To Test build on local machine
 npm run serve
 ```
+
+## Banner Image dimensions
+`1366 × 720`

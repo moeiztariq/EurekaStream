@@ -2,7 +2,7 @@
 slug: django-orm-null-vs-blank
 title: 'Django ORM: Null vs Blank'
 authors: azhar
-tags: [django, orm]
+tags: [django, orm, python]
 ---
 
 ![Django ORM](../banners/django-orm.webp)
