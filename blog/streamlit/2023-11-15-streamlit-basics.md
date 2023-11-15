@@ -4,7 +4,7 @@ title: Getting started with Streamlit
 authors: azhar
 tags: [streamlit, data visualization, python, machine learning]
 ---
-
+![Streamlit](../banners//streamlit.webp)
 
 Streamlit is an open-source Python library that makes it incredibly easy and fun to create beautiful, interactive web apps for data science and machine learning projects.
 
